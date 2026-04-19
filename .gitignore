@@ -1,0 +1,66 @@
+# 🔒 Environment variables
+
+.env
+.env.*
+!.env.example
+
+# 📦 Dependencies
+
+node_modules/
+
+# pnpm specific
+
+.pnpm-store/
+.pnpm-debug.log
+
+# Logs
+
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / testing
+
+coverage/
+.nyc_output/
+
+# Build output
+
+dist/
+build/
+.out/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+
+tmp/
+temp/
+
+# Docker (optional)
+
+docker-compose.override.yml
+
+# Misc
+
+*.local
